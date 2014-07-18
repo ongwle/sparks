@@ -1,0 +1,2 @@
+module ProjectGalleriesHelper
+end

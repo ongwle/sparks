@@ -1,0 +1,23 @@
+<h1>Listing trainers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @trainers.each do |trainer| %>
+      <tr>
+        <td><%= trainer.TrainerName %></td>
+
+        <td><%= trainer.TrainerTitle %></td>
+
+        <td><%= trainer.TrainerParticular %></td>x
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
